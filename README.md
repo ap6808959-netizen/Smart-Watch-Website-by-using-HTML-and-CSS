@@ -12,6 +12,9 @@ It combines minimal design with effective use of color, layout, and typography �
 * Feature cards for GPS tracking, heart rate, and calorie counter
 * Fully responsive design for all screen sizes
 
+## Screenshot Of The Site
+https://github.com/ap6808959-netizen/Smart-Watch-Website-by-using-HTML-and-CSS/blob/1e1a52414be9bb11082fd16737a9808a750221e6/Screen%20shot%20of%20the%20site.png
+
  ## Technologies Used
 * HTML — structure and layout
 * CSS — styling and responsiveness
