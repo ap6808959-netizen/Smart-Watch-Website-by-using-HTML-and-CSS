@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, #230223, #0f2d1e, #000);
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  width: 85%;
+  margin: auto;
+}
+
+.navlist {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.navlist a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  transition: 0.3s;
+}
+
+.navlist a:hover {
+  color: #e96658;
+}
+
+/* Button */
+.btn {
+  background-color: transparent;
+  border: 2px solid #e96658;
+  color: #e96658;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #e96658;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.content {
+  flex: 1;
+  max-width: 45%;
+}
+
+.content h1 {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.03rem;
+  margin-bottom: 1.5rem;
+}
+
+.content h1 span {
+  color: #e96658;
+}
+
+.content p {
+  color: #ddd;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+/* Watch Image */
+.img_box {
+  flex: 1;
+  text-align: center;
+}
+
+.img_box img {
+  width: 900%;
+  max-width: 420px;
+  height: auto;
+  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.4));
+}
+
+/* Features (Right Side) */
+.features {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.feature-line {
+  position: absolute;
+  left: 17px;
+  top: -25px;
+  width: 2px;
+  height: 270px;
+  background-color: #e96658;
+  z-index: -1;
+}
+
+.features .card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.features .card img {
+  width: 30px;
+  height: 30px;
+}
+
+.features .card h3 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 90%;
+  }
+
+  .features {
+    position: static;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .feature-line {
+    display: none;
+  }
+
+  .img_box img {
+    max-width: 320px;
+  }
+}
