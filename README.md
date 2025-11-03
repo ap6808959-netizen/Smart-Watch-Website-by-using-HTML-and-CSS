@@ -21,4 +21,4 @@ It combines minimal design with effective use of color, layout, and typography â
  [Smart Watch Website Preview]-file:///C:/Users/ABHISHEK%20PANDEY/OneDrive/Desktop/Html%20project%20ai/index.html
 
  ## Screenshot Of The Website
- https://raw.githubusercontent.com/ap6808959-netizen/Smart-Watch-Website-by-using-HTML-and-CSS/cd131b3c5190d197d2e6e1d4b70a94d1e28eeba7/screen%20shot%20of%20the%20sebsite.png
+
