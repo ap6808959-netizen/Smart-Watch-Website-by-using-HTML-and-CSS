@@ -17,8 +17,5 @@ It combines minimal design with effective use of color, layout, and typography �
 * CSS — styling and responsiveness
 * Google Fonts (Poppins) — clean, modern typography
 
- ## Preview
- [Smart Watch Website Preview]-file:///C:/Users/ABHISHEK%20PANDEY/OneDrive/Desktop/Html%20project%20ai/index.html
 
- ## Screenshot Of The Website
 
